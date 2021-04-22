@@ -1,3 +1,5 @@
+const BIRTHDATE = '1995-09-17';
+
 const CERTIFICATES = [
 	{
 		name: 'APIs and Microservices',

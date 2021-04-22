@@ -37,6 +37,12 @@ class CertificateHandler {
 }
 const certificateHandler = new CertificateHandler();
 
+const getAge = birthDate => Math.floor((new Date() - new Date(birthDate).getTime()) / 3.15576e10);
+
 $(function () {
+	// Render All Certificates
 	certificateHandler.renderAllTemplates(CERTIFICATES);
+
+	// Calculate my age
+	$('#my-age').text(getAge(BIRTHDATE));
 });
