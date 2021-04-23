@@ -64,13 +64,16 @@ class ClientHandler {
 		$('.clients.owl-carousel')
 			.imagesLoaded()
 			.owlCarousel({
-				nav: true, // Show next/prev buttons.
-				items: 2, // The number of items you want to see on the screen.
-				loop: false, // Infinity loop. Duplicate last and first items to get loop illusion.
+				nav: false,
+				items: 2,
+				loop: false,
 				navText: false,
 				margin: 10,
 				autoHeight: true,
 				rtl: true,
+				autoplay: true,
+				autoplayTimeout: 3000,
+				autoplayHoverPause: false,
 				responsive: {
 					// breakpoint from 0 up
 					0: {
