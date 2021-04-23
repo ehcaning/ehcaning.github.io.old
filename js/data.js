@@ -117,6 +117,11 @@ const CLIENTS = [
 	},
 	{
 		name: 'پیکوپول',
+		logo: 'com.diacoipj.picopool_512x512.png',
+		url: 'https://cafebazaar.ir/app/com.diacoipj.picopool',
+	},
+	{
+		name: 'کیودی',
 		logo: 'com.diacoipj.QDay_512x512.png',
 		url: 'https://cafebazaar.ir/app/com.diacoipj.QDay',
 	},
