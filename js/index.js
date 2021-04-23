@@ -66,10 +66,9 @@ class ClientHandler {
 			.owlCarousel({
 				nav: false,
 				items: 2,
-				loop: false,
 				navText: false,
 				margin: 10,
-				autoHeight: true,
+				autoHeight: false,
 				rtl: true,
 				autoplay: true,
 				autoplayTimeout: 3000,
