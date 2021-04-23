@@ -2912,3 +2912,7 @@ blockquote {
 .img-hor {
   transform: rotateY(180deg);
 }
+
+.text-justify{
+  text-align: justify;
+}
