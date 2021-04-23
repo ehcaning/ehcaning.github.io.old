@@ -93,3 +93,41 @@ const CERTIFICATES = [
 		org: 'SoloLearn',
 	},
 ];
+
+const CLIENTS = [
+	{
+		name: 'بازیکن',
+		logo: 'bazikon.png',
+		url: 'https://bazikon.me/',
+	},
+	{
+		name: 'سالما',
+		logo: 'salema.png',
+		url: 'https://cafebazaar.ir/app/ir.fwdco.salema',
+	},
+	{
+		name: 'قهرمانان سیستان',
+		logo: 'ir.fwdco.sistan_512x512.png',
+		url: 'https://cafebazaar.ir/app/ir.fwdco.sistan',
+	},
+	{
+		name: 'رویال استرایک',
+		logo: 'royale-strike.png',
+		url: 'https://royalestrike.ir/',
+	},
+	{
+		name: 'پیکوپول',
+		logo: 'com.diacoipj.QDay_512x512.png',
+		url: 'https://cafebazaar.ir/app/com.diacoipj.QDay',
+	},
+	{
+		name: 'میکرومانی',
+		logo: 'com.diacoipj.MicroMoney_512x512.png',
+		url: 'https://cafebazaar.ir/app/com.diacoipj.MicroMoney',
+	},
+	{
+		name: 'هوش برنده',
+		logo: 'com.diacoipj.hoshbarandeh_512x512.png',
+		url: 'https://cafebazaar.ir/app/com.diacoipj.hoshbarandeh',
+	},
+];
